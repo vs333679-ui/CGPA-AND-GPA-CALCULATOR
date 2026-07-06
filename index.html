@@ -1,47 +1,67 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title></title>
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-    
-    <h1 class="title"><b><u>CGPA Calculator</u></b></h1>
+<head>
+  <title>CGPA Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <h1 class="title"><b><u>CGPA Calculator</u></b></h1>
+  <hr>
+
+  <p>Calculate Your GPA and CGPA</p>
+  <hr>
+
+  <!-- INPUTS -->
+  <label>Subject Name</label>
+  <input type="text" id="subjectname" placeholder="Type Here......">
+  <br><br>
+
+  <label>Credit</label>
+  <input type="number" id="credit" placeholder="Type Here.....">
+  <br><br>
+
+  <label>Grade</label>
+  <select id="grade">
+    <option value="10">O</option>
+    <option value="9">A+</option>
+    <option value="8">A</option>
+    <option value="7">B+</option>
+    <option value="6">B</option>
+    <option value="5">C</option>
+    <option value="0">F</option>
+  </select>
+
+  <br><br>
+
+  <button id="addBtn">Add Subject</button>
+
+  <hr>
+
+  <!-- SUBJECT LIST -->
+  <h3><u>Subject List</u></h3>
+  <ul id="subjectlist"></ul>
+
+  <hr>
+
+  <!-- RESULT -->
+  <div class="container">
+    <h2><b><u>RESULT</u></b></h2>
+
+    <p>GPA: <span id="gpaResult">0.00</span></p>
     <hr>
-    <p>Calculate Your GPA and CGPA </p>
+
+    <p>CGPA: <span id="cgpaResult">0.00</span></p>
     <hr>
-    <label>Subject Name</label>
-    <input type="text" id ="subjectname"placeholder="Type Here......">
-    <br>
-    <label>Credit </label>
-    <input type ="number" id="credit"placeholder="Type Here.....">
-    <br>
-    <label>Grade</label>
-    <select id ="grade">
-      <option>O</option>
-      <option>A+</option>
-      <option>A</option>
-            <option>B+</option>
-                  <option>B</option>
-                        <option>C</option>
-                              <option>F</option>
-    </select>
-    <br>
-   <button id ="addBtn">Add Subject</button>
-   <h3><u>Subject List</u></h3>
-   <div class="container">
-    <ul id = "subjectlist"></ul>
-   </div>
-   <div class="container">
-   <h2><B><U>RESULT</u></b></h2>
-   <p>GPA:0.00</p>
-   <hr>
-   <p>CGPA:0.00</p>
-   <hr>
-   </div>
-   <footer>
-    <p> @ 2026 CGPA Calculator | Developed by <strong>Vaishali Singh</strong></p>
-   </footer>
-   <script src="script.js"></script>
-  </body>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>@ 2026 CGPA Calculator | Developed by <strong>Vaishali Singh</strong></p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
 </html>
