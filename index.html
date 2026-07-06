@@ -13,7 +13,7 @@
   <p>Calculate Your GPA and CGPA</p>
   <hr>
 
-  <!-- INPUTS -->
+  <!-- SUBJECT INPUTS -->
   <label>Subject Name</label>
   <input type="text" id="subjectname" placeholder="Type Here......">
   <br><br>
@@ -55,6 +55,20 @@
     <p>CGPA: <span id="cgpaResult">0.00</span></p>
     <hr>
   </div>
+
+  <hr>
+
+  <!-- ⭐ NEW: SEMESTER CGPA SYSTEM -->
+  <h2>Add Semester GPA</h2>
+
+  <input type="number" id="semGPA" placeholder="Enter Semester GPA">
+  <button id="addSemBtn">Add Semester</button>
+
+  <ul id="semList"></ul>
+
+  <h3><u>Final CGPA: <span id="finalCGPA">0.00</span></u></h3>
+
+  <hr>
 
   <!-- FOOTER -->
   <footer>
