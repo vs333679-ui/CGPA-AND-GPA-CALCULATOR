@@ -1,0 +1,28 @@
+body {
+  font-family: Aerial,sans-serif;
+  margin:5px;
+  padding:2px;
+  background: linear-gradient(135deg,#e0f7fa,#fce4ec);
+}
+.container{
+  width: 400px;
+  margin: 50px auto;
+  padding: 25px;
+
+  background: rgba (255,255,255,0.8);
+  backdrop-filter: blur (10px);
+
+
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+  
+  border: 1px solid rgba(255,255,255,0.3;
+}
+footer {
+  text-align: center;
+  margin-top: 30px;
+  padding: 15px;
+  color:#555;
+  font-size: 14px;
+  background-color: black;
+}
